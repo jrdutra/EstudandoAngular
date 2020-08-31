@@ -1,0 +1,19 @@
+div.msg-box {
+  height: 3em;
+  position: relative;
+  margin: 1em;
+  border-style: solid;
+  border-color: darkgreen;
+}
+
+div.msg-box p{
+  margin-left: 9pt;
+  position: absolute;               /* 2 */
+  top: 50%;                         /* 3 */
+  transform: translate(0, -50%);
+  color: darkgreen;
+}
+
+div.success {
+  background-color: lightgreen;
+}
