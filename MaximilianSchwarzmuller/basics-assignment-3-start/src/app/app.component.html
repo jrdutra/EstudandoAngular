@@ -10,4 +10,27 @@
       </ol>
     </div>
   </div>
+  <div class="row">
+    <div class="col-xs-6">
+      <button 
+      (click)="onBtnClick()"
+      type="button" 
+      class="btn btn-primary"
+      >Display Details</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6">
+      <p [ngStyle]="getStyle()">Secret Password = tuna</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-10">
+      <p 
+      *ngFor="let log of arrLog" 
+      [ngStyle]="{backgroundColor: getColor(log.number)}"
+      [ngClass]="{whiteColor: log.number > 4}"
+      >Number: {{ log.number }} Hour: {{ log.time }} </p>
+    </div>
+  </div>
 </div>
