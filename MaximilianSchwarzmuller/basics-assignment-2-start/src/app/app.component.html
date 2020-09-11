@@ -4,3 +4,22 @@
   <li>Add a button which may only be clicked if the username is NOT an empty string</li>
   <li>Upon clicking the button, the username should be reset to an empty string</li>
 </ol>
+
+<div class="container">
+  <input 
+  [(ngModel)]="varName" 
+  (keyup)="onKey($event)"
+  type = "text" 
+  class="form-control" 
+  placeholder="Name" 
+  aria-label="Username" 
+  aria-describedby="basic-addon1">
+  <button 
+  [disabled]="varEmpty"
+  (click)="clearName()"
+  type="button" 
+  class="btn btn-primary">Clear</button>
+  <p>{{ varName }}</p>
+</div>
+
+
