@@ -1,4 +1,4 @@
-# EstudandoAngular
+# Estudando Angular
 
 ## Todo o conteúdo do estudo de FW Angular
 
