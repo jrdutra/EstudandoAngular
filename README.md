@@ -1,6 +1,6 @@
 # EstudandoAngular
 
-## Todo o conteúdo do estudo de Angular
+## Todo o conteúdo do estudo de FW Angular
 
 Esse repositório se destina a guardar os exercícios de aula do Professor Maximilian Schwarzmüller.
 
