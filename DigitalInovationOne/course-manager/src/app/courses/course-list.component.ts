@@ -50,7 +50,7 @@ export class CourseListComponent implements OnInit {
       );
   }
 
-  get filter(){
+  get filter(): string{
     return this._filterBy;
   }
 
